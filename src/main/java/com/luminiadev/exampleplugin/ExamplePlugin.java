@@ -1,10 +1,8 @@
 package com.luminiadev.exampleplugin;
 
-import cn.nukkit.block.Block;
 import cn.nukkit.event.player.PlayerJumpEvent;
-import cn.nukkit.item.Item;
-import cn.nukkit.item.enchantment.Enchantment;
 import cn.nukkit.plugin.PluginBase;
+import cn.nukkit.registry.Registries;
 import cn.nukkit.utils.TextFormat;
 import com.luminiadev.exampleplugin.command.ExampleGiveCommand;
 import com.luminiadev.exampleplugin.command.ExampleSetBlockCommand;
@@ -25,9 +23,10 @@ public class ExamplePlugin extends PluginBase {
     public void onLoad() {
         log.info("ExamplePlugin loaded");
 
-        Item.registerCustomItem(ItemCustomExample.class).assertOK();
-        Block.registerCustomBlock(List.of(BlockCustomExample.class)).assertOK();
-        Enchantment.register(new EnchantmentCustomExample(), true).assertOK();
+        // Registering custom item, block & enchantment
+        Registries.ITEM.registerCustom(List.of(ItemCustomExample.class));
+        Registries.BLOCK.registerCustom(List.of(BlockCustomExample.class));
+        Registries.ENCHANTMENT.registerCustom(new EnchantmentCustomExample(), true);
     }
 
     @Override
