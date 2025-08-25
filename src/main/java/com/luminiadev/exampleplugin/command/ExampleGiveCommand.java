@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.command;
+package com.luminiadev.exampleplugin.command;
 
 import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
@@ -13,7 +13,7 @@ import cn.nukkit.command.utils.CommandLogger;
 import cn.nukkit.item.Item;
 import cn.nukkit.item.material.ItemType;
 import cn.nukkit.item.material.ItemTypes;
-import com.luminiadev.lumi.ExamplePlugin;
+import com.luminiadev.exampleplugin.ExamplePlugin;
 
 import java.util.List;
 import java.util.Map;

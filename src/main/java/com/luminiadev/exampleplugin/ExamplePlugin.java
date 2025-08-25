@@ -1,4 +1,4 @@
-package com.luminiadev.lumi;
+package com.luminiadev.exampleplugin;
 
 import cn.nukkit.block.Block;
 import cn.nukkit.event.player.PlayerJumpEvent;
@@ -6,14 +6,14 @@ import cn.nukkit.item.Item;
 import cn.nukkit.item.enchantment.Enchantment;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.TextFormat;
-import com.luminiadev.lumi.command.ExampleGiveCommand;
-import com.luminiadev.lumi.command.ExampleSetBlockCommand;
-import com.luminiadev.lumi.command.RandomEffectsCommand;
-import com.luminiadev.lumi.command.SimplePluginCommand;
-import com.luminiadev.lumi.customblock.BlockCustomExample;
-import com.luminiadev.lumi.customenchantment.EnchantmentCustomExample;
-import com.luminiadev.lumi.customitem.ItemCustomExample;
-import com.luminiadev.lumi.listener.EventListener;
+import com.luminiadev.exampleplugin.command.ExampleGiveCommand;
+import com.luminiadev.exampleplugin.command.ExampleSetBlockCommand;
+import com.luminiadev.exampleplugin.command.RandomEffectsCommand;
+import com.luminiadev.exampleplugin.command.SimplePluginCommand;
+import com.luminiadev.exampleplugin.customblock.BlockCustomExample;
+import com.luminiadev.exampleplugin.customenchantment.EnchantmentCustomExample;
+import com.luminiadev.exampleplugin.customitem.ItemCustomExample;
+import com.luminiadev.exampleplugin.listener.EventListener;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.customblock;
+package com.luminiadev.exampleplugin.customblock;
 
 import cn.nukkit.Player;
 import cn.nukkit.block.Block;

@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.customenchantment;
+package com.luminiadev.exampleplugin.customenchantment;
 
 import cn.nukkit.item.enchantment.Enchantment;
 import cn.nukkit.item.enchantment.EnchantmentType;

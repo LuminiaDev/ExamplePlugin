@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.command;
+package com.luminiadev.exampleplugin.command;
 
 import cn.nukkit.block.Block;
 import cn.nukkit.block.material.BlockType;
@@ -12,7 +12,7 @@ import cn.nukkit.command.tree.ParamList;
 import cn.nukkit.command.tree.node.StringNode;
 import cn.nukkit.command.utils.CommandLogger;
 import cn.nukkit.level.Position;
-import com.luminiadev.lumi.ExamplePlugin;
+import com.luminiadev.exampleplugin.ExamplePlugin;
 
 import java.util.Map;
 
