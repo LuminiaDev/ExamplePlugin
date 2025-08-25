@@ -11,6 +11,7 @@ import com.luminiadev.exampleplugin.command.SimplePluginCommand;
 import com.luminiadev.exampleplugin.customblock.BlockCustomExample;
 import com.luminiadev.exampleplugin.customenchantment.EnchantmentCustomExample;
 import com.luminiadev.exampleplugin.customitem.ItemCustomExample;
+import com.luminiadev.exampleplugin.customitem.ItemFoodCustom;
 import com.luminiadev.exampleplugin.listener.EventListener;
 import lombok.extern.slf4j.Slf4j;
 
@@ -24,7 +25,10 @@ public class ExamplePlugin extends PluginBase {
         log.info("ExamplePlugin loaded");
 
         // Registering custom item, block & enchantment
-        Registries.ITEM.registerCustom(List.of(ItemCustomExample.class));
+        Registries.ITEM.registerCustom(List.of(
+                ItemCustomExample.class,
+                ItemFoodCustom.class
+        ));
         Registries.BLOCK.registerCustom(List.of(BlockCustomExample.class));
         Registries.ENCHANTMENT.registerCustom(new EnchantmentCustomExample(), true);
     }
