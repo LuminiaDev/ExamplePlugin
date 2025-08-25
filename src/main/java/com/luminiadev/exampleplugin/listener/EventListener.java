@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.listener;
+package com.luminiadev.exampleplugin.listener;
 
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;

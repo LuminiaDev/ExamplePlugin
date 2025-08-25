@@ -2,4 +2,4 @@ name: "ExamplePlugin"
 version: "1.0.0-SNAPSHOT"
 description: "Example plugin for Lumi bedrock server software"
 api: ["1.0.0"]
-main: "com.luminiadev.lumi.ExamplePlugin"
+main: "com.luminiadev.exampleplugin.ExamplePlugin"

@@ -1,4 +1,4 @@
-package com.luminiadev.lumi.command;
+package com.luminiadev.exampleplugin.command;
 
 import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
@@ -11,7 +11,7 @@ import cn.nukkit.command.utils.CommandLogger;
 import cn.nukkit.entity.effect.Effect;
 import cn.nukkit.entity.effect.EffectType;
 import cn.nukkit.utils.TextFormat;
-import com.luminiadev.lumi.ExamplePlugin;
+import com.luminiadev.exampleplugin.ExamplePlugin;
 
 import java.util.List;
 import java.util.Map;
